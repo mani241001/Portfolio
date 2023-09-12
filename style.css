@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.landing{
+    width: 100%;
+    padding:10px 0px;
+    padding-left: -10%;
+    background-color: #191919;
+    background-position: center;
+    background-size: cover;
+    height: -100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 0%;
+}
+.logo{
+    color: rgb(223, 0, 0);
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 700;
+    padding-right: 0%;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    padding: 20px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: red;
+    transition: .4s;
+}
+.btn{
+    background-color: red;
+    color: #FFFFDD;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.btn:hover{
+    transition: .4s;
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* transform: translateY(-50%) */
+}
+.home{
+    height: 80vh;
+    width: 100%;
+    background: url("Images/2.png") no-repeat;
+    border-radius: 12px;
+    background-position: right ;
+    background-size: contain ;
+    padding-top: 400;
+    padding-left: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .home-content{
+    height: 100%;
+    width: 90%;
+    padding: 10%;
+    padding-left: 5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text .text-one{
+    font-size:45px;
+    color: rgb(232, 229, 225);
+}
+.home .text .text-two{
+    font-size: 75px;
+    font-weight: 600;
+    color: rgb(233, 22, 22);
+}
+.home .text .text-three{
+    font-size: 40px;
+    color: #D7F7F5;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #4F200D;
+}
+::-webkit-scrollbar-thumb {
+    background: #eb0404;
+    border-radius: 200px;
+    transition: all 0.4s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4F200D;
+    border-radius: 12px;
+}
+
+.about{
+    width: 100%;
+    padding:100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height:530px;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    color:#FFEF6F;
+    letter-spacing: 2px;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #F4F4F4;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.Education{
+    background-color: #101010;
+    width: 100%;
+    padding: 10px 0px;
+}
+.title .txt{
+    color: #CD1818;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.title{
+    color: rgb(246, 238, 238);
+    font-size: 60px;
+    text-align: center;
+    margin: 25px auto;
+    padding-left: 9%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.contact{
+    width: 100%;
+    height:290px;
+    background-color:#191919 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.contact .second-button{
+    background-color: red;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.contact .second-button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    transition: .3s;
+}
+
+
+.social{
+    display: flex;
+    padding-left: 35%;
+}
+.He .title p{
+    font-size: 25px;
+    padding-right: 100px;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50%;
+    margin: 20px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+ .social a:hover{
+    transition: .5s;
+    transform: scale(1.3);
+    background-color: transparent;
+    border: 2px solid red;
+ }
+ .end{
+    position: absolute;
+    color: red;
+    bottom : 35px;
+    font-size: 28px;
+    padding-left: 37%;
+ }
+ .Education .Educate{
+    height: 100%;
+    width: 90%;
+    padding-left: 10%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+ .Education .edu .text-Head{
+    font-size: 40px;
+    color: #FFA41B;
+    padding-top: 2%;
+}
+.Education .edu .text-sub{
+    font-size:30px;
+    color: #B9E9FC;
+    padding-top: 2%;
+}
+.Education .edu .text-third{
+    font-size: 40px;
+    color: #FFA41B;
+    padding-top: 5%;
+}
+.works{
+    width: 100%;
+    padding:100px 0px;
+    background-color: #050000;
+}
+.works img{
+    height:530px;
+    width: 430px;
+    border-radius: 10px;
+}
+.works-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.works-text h2{
+    color: rgb(8, 2, 2);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.works-text h5{
+    color:#FF7B54;
+    letter-spacing: 2px;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.works-text p{
+    color: rgb(11, 8, 8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}.Skills .boxes .box .per {
+    font-size: 80px;
+    text-align: right;
+    margin-top: 10%;
+    color: #eb0404;
+}
+
+.Skills .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Skills .boxes .box {
+    width: calc(90% / 3 - 20px);
+    min-height: 10px;
+    background-color: #B6EB7A;
+    border-radius: 50px;
+    margin: 20px;
+    cursor: default;
+    transition: all 0.4s ease;
+    display: flex; /* Added */
+    flex-direction: column; /* Added */
+    justify-content: center; /* Added */
+    align-items: center; /* Added */
+    text-align: center; /* Added */
+}
+
+.Skills .boxes .box:hover {
+    background: #EF9F9F ;
+    color: #020000;
+}
+
+.Skills .topic {
+    color: #000102;
+    font-size: 25px;
+    font-weight: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Skills {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #191919;
+}
+.Hi .title{
+    background-color: #000000;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 40px;
+    }
+.Hi .Educate{
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+}
+ .Hi .edu .text-Head a{
+    font-size: 40px;
+    color: #FFA41B;
+    padding-top: 2%;
+}
+.Hi .edu .text-Head a:hover{
+    font-size: 40px;
+    color: #D7C1E0;
+    padding-top: 2%;
+}
+.Hi .edu .text-Head{
+    font-size: 40px;
+    color: #FFA41B;
+    padding-top: 1.1%;
+}
+.Hi .edu .text-sub{
+    font-size:30px;
+    color: #EA5E5E;
+}
+.Hi .edu .text-four{
+    font-size: 25px;
+    color: #FDEBF7;
+    padding-top: 1%;
+}
+
+.He .title{
+    background-color: #000000;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-right: 150px;
+    }
+.He .Educate{
+    height: 100%;
+    width: 100%;
+    padding-left: 0%;
+    margin: -01%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #000000;
+}
+ .He .edu .text-Head a{
+    font-size: 40px;
+    color: #FFA41B;
+    padding-top: 2%;
+}
+.He .edu .text-Head a:hover{
+    font-size: 40px;
+    color: #D7C1E0;
+    padding-top: 2%;
+}
+.He .edu .text-Head{
+    font-size: 40px;
+    color: #FFA41B;
+    padding-top: 1.1%;
+}
+.He .edu .text-sub{
+    font-size:30px;
+    color: #EA5E5E;
+}
+.He .edu .text-four{
+    font-size: 25px;
+    color: #FDEBF7;
+    padding-top: 1%;
+}
+.He .title .text-Head{
+    font-size: 25px;
+    padding-right: 100px;
+}
